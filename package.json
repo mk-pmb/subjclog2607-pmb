@@ -1,5 +1,5 @@
 { "name": "subjclog2607-pmb",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Make your console.log()ging a bit more traceable with a subject prefix.",
   "keywords": [],
 
@@ -16,13 +16,17 @@
 
   "private": false, "license": "ISC",
 
-  "main": "index.mjs",
   "scripts": { "test": "elp && nodemjs test/all.mjs" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
   "dependencies": {},
   "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.14",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^17.16.2",
+    "eslint-pretty-pmb": "^1.0.7",
+    "nodemjs": "^0.1.18"
   },
 
 
